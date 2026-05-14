@@ -57,10 +57,9 @@ nav ul li a:hover {
 }
 
 .profile-pic {
-    width: 180px;
-    height: 180px;
+    width: 220px;
+    height: auto;
     border-radius: 50%;
-    object-fit: cover;
     border: 5px solid #ddb892;
     margin-bottom: 25px;
 }
@@ -185,13 +184,13 @@ nav ul li a:hover {
 
 .project-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 30px;
 }
 
 .project-card {
     background: #3c2a21;
-    padding: 30px;
+    padding: 25px;
     border-radius: 15px;
     border: 1px solid #ddb892;
     transition: 0.3s;
@@ -200,6 +199,13 @@ nav ul li a:hover {
 .project-card:hover {
     transform: translateY(-8px);
     box-shadow: 0 0 20px rgba(221, 184, 146, 0.4);
+}
+
+.project-image {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 .project-card h3 {
